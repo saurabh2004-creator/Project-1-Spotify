@@ -301,6 +301,7 @@ button {
     background-color: #202020;
     border-radius: 10px;
     overflow: scroll;
+    overflow-x: hidden;
 }
 
 .bar-header{
