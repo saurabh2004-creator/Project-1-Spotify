@@ -304,63 +304,86 @@ button {
     overflow-x: hidden;
 }
 
-.bar-header{
+.bar-header {
     width: 95%;
     justify-content: space-between;
-        padding: 20px 24px; 
+    padding: 20px 24px;
 }
-.trend a{
+
+.trend a {
     text-decoration: none;
     font-size: 23px;
     font-weight: 700;
     color: white;
 }
-.trend a:hover{
+
+.trend a:hover {
     text-decoration: underline;
 }
-.show span{
+
+.show span {
     font-size: 14px;
     font-weight: 300;
 }
-.show span:hover{
+
+.show span:hover {
     text-decoration: underline;
 }
-.card-list1{
+
+.card-list1 {
     margin: 10px;
     width: 900px;
     display: flex;
     flex-wrap: wrap;
-    
+
 }
- .cards{
-   
- }
-.card{
+
+.card {
     width: 180px;
     height: 277px;
     background-color: #232222;
     border-radius: 8px;
     padding: 12px 0px;
+    position: relative;
 }
-.card:hover{
-        background-color: #303030;
 
+.card:hover {
+    background-color: #303030;
 }
-.info{
+.play-btn{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: #1ed760;
+    font-size: large;
+    position: absolute;
+    top: 113px;
+    right: 15px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out 0s;
+}
+.card:hover .play-btn{
+    opacity: 1;
+}
+
+.info {
     width: 153px;
     margin: 0px 14px;
-    
+
 
 }
-.info img{
+
+.info img {
     width: 100%;
     border-radius: 8px;
 }
-.info a{
+
+.info a {
     text-decoration: none;
     color: rgb(179, 179, 179);
     font-size: 12px;
 }
-.info a:hover{
+
+.info a:hover {
     text-decoration: underline;
 }
